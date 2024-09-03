@@ -1,3 +1,17 @@
+# Umbrella Analysis!
+### ReactJS Final Project by Riezl Andria Lim
+
+This web app aims to solve the problem whether one should bring an umbrella or not depending on the weather conditions. Basically, just enter name of the city (you are currently in) and tada! It will show the current weather, along with temperature, wind speed, and humidity. With that, it will also show the recommendation whether you should bring an umbrella (or more than that) or not. Additionally, it will also show 3-hour interval weather forecast. Below is the Netlify link to access the web app:
+
+### https://ralim-umbrella-analysis.netlify.app/
+
+# Main Features of Umbrella Analysis
+
+1. Search by city for current weather
+2. Temperature, wind speed, and humidity
+3. Umbrella recommendation
+4. Weather forecast
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
