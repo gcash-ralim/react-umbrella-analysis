@@ -1,38 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
+  text-align: center;
+  margin: 50px auto 50px;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 20px;
+  padding: 20px 15px;
+  background: rgb(102, 153, 255);
+  height: auto;
+  min-height: 470px;
+  overflow-y: auto;
+}
+
+.app-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  color: #000033;
+}
+
+.app-subheader {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 20px;
+  color: #333;
+}
+
+.search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.search-bar input {
+  width: 70%;
+  height: 45px;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 2px 15px;
+  font-size: 16px;
+  outline: none;
+  background-color: #ffffff;
+  color: #555555;
+}
+
+.search-bar button {
+  border: none;
+  border-radius: 8px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+  padding: 13px 15px;
+}
+
+.city-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.loading {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #000000;
+}
+
+.error-message {
+  color: #990000;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.date {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.weather-icon img {
+  width: 75px;
+  height: 75px;
+}
+
+.temp {
+  font-size: 64px;
+  color: #000;
+  font-weight: bold;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.description {
+  font-size: 25px;
+  color: #000000;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.weather-info{
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 20px;
+  padding: 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.column{
+  display: flex;
+  align-items: center;
+  line-height: 1px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.umbrella-recommendation {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.forecast {
+  margin-top: 30px;
+}
+
+.forecast-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #00CCCC;
+}
+
+.forecast-item p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.forecast-item img {
+  width: 50px;
+  height: 50px;
 }
